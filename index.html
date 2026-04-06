@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中色卢安夏铜业有限公司 - 信息公开平台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header site-header--sticky">
+      <div class="container header-inner">
+        <div class="brand-wrap">
+          <p class="brand-cn">中色卢安夏铜业有限公司</p>
+          <p class="brand-en">CNMC LUANSHYA COPPER MINES PLC</p>
+        </div>
+        <nav class="main-nav">
+          <a href="#news">
+            <span class="nav-cn">新闻中心</span>
+            <span class="nav-en">Media Center</span>
+          </a>
+          <a href="#invites">
+            <span class="nav-cn">电子公告</span>
+            <span class="nav-en">Bulletin</span>
+          </a>
+          <a href="#policies">
+            <span class="nav-cn">管理制度</span>
+            <span class="nav-en">Policies</span>
+          </a>
+          <a href="#contact">
+            <span class="nav-cn">联系方式</span>
+            <span class="nav-en">Contact</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-main">
+      <section class="hero">
+        <div>
+          <h2>公开透明 / Transparent & Open</h2>
+          <p>
+            平台用于统一发布公司新闻、招标公告与可公开管理制度，确保信息及时、准确、可追溯。
+          </p>
+        </div>
+        <div class="hero-meta">
+          <p><strong>更新日期 / Updated：</strong><span id="today"></span></p>
+          <p><strong>公告状态 / Status：</strong>平台运行正常</p>
+        </div>
+      </section>
+
+      <section id="news" class="section section--compact">
+        <div class="section-head">
+          <div>
+            <h3>新闻中心</h3>
+            <p class="section-sub">Media Center</p>
+          </div>
+          <a class="more-link" href="list.html?type=news">查看更多 more &gt;</a>
+        </div>
+        <div class="card-list" id="news-list"></div>
+      </section>
+
+      <section id="invites" class="section section--compact">
+        <div class="section-head">
+          <div>
+            <h3>电子公告</h3>
+            <p class="section-sub">Bulletin</p>
+          </div>
+          <a class="more-link" href="list.html?type=invites">查看更多 more &gt;</a>
+        </div>
+        <div class="card-list" id="invite-list"></div>
+      </section>
+
+      <section id="policies" class="section">
+        <div class="section-head">
+          <div>
+            <h3>管理制度</h3>
+            <p class="section-sub">Policies</p>
+          </div>
+          <a class="more-link" href="list.html?type=policies">查看更多 more &gt;</a>
+        </div>
+        <div class="card-list" id="policy-list"></div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h3>联系方式 / Contact</h3>
+        <p>招采中心：+260 961234567</p>
+        <p>邮箱：mail@clm.com.zm</p>
+        <p>地址：赞比亚铜带省卢安夏市独立大道867c</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 中色卢安夏铜业有限公司 · 信息公开平台</p>
+      </div>
+    </footer>
+
+    <script src="site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
