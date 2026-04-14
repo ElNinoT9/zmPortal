@@ -4,7 +4,8 @@ function formatDate(dateText) {
 }
 
 function getDetailUrl(moduleType, id) {
-  return `detail.html?type=${moduleType}&id=${id}`;
+  const from = encodeURIComponent(`${window.location.pathname.split("/").pop()}${window.location.search}`);
+  return `detail.html?type=${moduleType}&id=${id}&from=${from}`;
 }
 
 function getItemHref(moduleType, item) {
@@ -50,7 +51,6 @@ function renderHomeList(listId, data, moduleType) {
           </div>
           <h4>${item.title}</h4>
           <p>${item.summary}</p>
-          <span class="tag">${item.type}</span>
         </a>
       </article>
     `
@@ -73,3 +73,6 @@ function setToday() {
 
 setToday();
 renderAll();
+
+
+{/* <span class="tag">${item.type}</span> */}

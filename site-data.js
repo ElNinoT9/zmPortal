@@ -27,8 +27,7 @@ const siteData = {
         { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
         { name: "卢安夏官网采购模块设计(临时).docx", url: "files/卢安夏官网采购模块设计(临时).docx" }
       ],
-      content:
-        "春潮涌动启新篇，科技赋能向未来。赞比亚时间3月21日上午，中色卢安夏铜业有限公司首届科技大会在驻地体育馆会议室隆重召开。此次大会恰逢公司“十四五”圆满收官、“十五五”扬帆起航的关键节点，是公司发展史上具有里程碑意义的重要盛会，既是对过去五年科技创新工作的全面检阅与总结表彰，更是对未来五年以科技创新引领高质量发展、加快培育新质生产力的总动员、总部署。公司全体中方员工齐聚一堂，共话科技发展，共绘创新蓝图。"
+      content: "春潮涌动启新篇，科技赋能向未来。赞比亚时间3月21日上午，中色卢安夏铜业有限公司首届科技大会在驻地体育馆会议室隆重召开。此次大会恰逢公司“十四五”圆满收官、“十五五”扬帆起航的关键节点，是公司发展史上具有里程碑意义的重要盛会，既是对过去五年科技创新工作的全面检阅与总结表彰，更是对未来五年以科技创新引领高质量发展、加快培育新质生产力的总动员、总部署。公司全体中方员工齐聚一堂，共话科技发展，共绘创新蓝图。"
     },
     {
       id: 2,
@@ -61,115 +60,151 @@ const siteData = {
     //   content:
     //     "为进一步提升员工合规意识，公司开展专题培训，围绕招投标重点环节风险点进行案例讲解，明确操作底线和责任边界，持续完善制度执行与监督机制。"
     // }
+    {
+      id: 3,
+      title: "文岗赴中色锌业开展安全生产工作调研",
+      date: "2025-07-29",
+      type: "动态",
+      image: "images/新闻3.jpg",
+      // externalUrl: "https://oa.cnmc-clm.com.cn/iuap-ymdp-portal/api/rest/info/shareAddr/2501088863770378242/pyptfnp2",
+      summary: "",
+      paragraphs: [
+        "7月29日，中国有色集团党委书记、董事长文岗到中色股份所属中色白矿开展安全生产工作调研，深入贯彻习近平总书记关于安全生产重要论述，落实国务院国资委部署要求和集团党委工作安排，现场开展安全生产专项检查，督导企业深化安全生产治本攻坚三年行动，推进安全生产强基固本，助力企业实现安全绿色高质量发展。 文岗一行深入现场实地检查了充填站、疏干水处理站、尾矿库、选厂和综合管控中心，详细了解了企业安全环保、增储上产、生产经营、改革发展重点工作进展，并主持召开座谈会。 座谈会上，文岗首先组织认真学习了7月28日习近平总书记对防汛救灾工作作出的重要指示，强调要深入贯彻落实总书记重要指示精神，紧盯重点领域和薄弱环节，全面压实各级安全责任，以时时放心不下的责任感，抓细抓实抓好安全生产和防汛救灾工作，坚守安全底线，为企业长远发展打下坚实基础。 在听取相关工作汇报后，文岗强调，要认真汲取矿山行业安全事故教训，深入开展安全生产隐患排查工作，从严从实强化安全管控，加强制度执行力，特别是警惕习以为常的安全隐患，做好关键环节检查和监督落实工作；要主动适应当前国家对于安全环保更严的监管政策、标准和要求，切实在思想意识",
+      ],
+      images: [
+        // { src: "images/新闻1.jpg", alt: "科技大会现场图1", afterParagraph: 1 },
+      ],
+      // content: "春潮涌动启新篇，科技赋能向未来。赞比亚时间3月21日上午，中色卢安夏铜业有限公司首届科技大会在驻地体育馆会议室隆重召开。此次大会恰逢公司“十四五”圆满收官、“十五五”扬帆起航的关键节点，是公司发展史上具有里程碑意义的重要盛会，既是对过去五年科技创新工作的全面检阅与总结表彰，更是对未来五年以科技创新引领高质量发展、加快培育新质生产力的总动员、总部署。公司全体中方员工齐聚一堂，共话科技发展，共绘创新蓝图。"
+    },
   ],
   invites: [
-    // {
-    //   id: 1,
-    //   title: "矿区运输道路维护工程招标公告",
-    //   date: "2026-04-06",
-    //   type: "招标",
-    //   summary: "公开邀请具备施工资质和海外项目经验的单位参与投标。",
-    //   content:
-    //     "本项目包括道路修复、排水优化和安全标识完善。投标单位需具备相关资质、近三年同类业绩及完善的安全管理体系。具体要求以招标文件为准。"
-    // },
-    // {
-    //   id: 2,
-    //   title: "采选厂备件年度采购项目询价公告",
-    //   date: "2026-04-02",
-    //   type: "询价",
-    //   summary: "面向符合条件供应商开展公开询价，欢迎按要求提交报价。",
-    //   content:
-    //     "项目采购范围覆盖关键设备备件及相关服务，报价文件应完整提供产品参数、交货周期、售后条款与价格构成。公司将综合价格与服务能力择优选取。"
-    // },
-    // {
-    //   id: 3,
-    //   title: "矿山信息化系统升级服务比选邀请",
-    //   date: "2026-03-27",
-    //   type: "比选",
-    //   summary: "就系统升级方案、实施周期、运维能力进行综合比选。",
-    //   content:
-    //     "项目涉及生产调度、设备监测和数据可视化模块优化。参选单位需提交技术方案、实施计划及团队配置，公司将组织评审并发布比选结果。"
-    // }
-    // {
-    //   id: 1,
-    //   title: "招标公告",
-    //   date: "2026-04-06",
-    //   type: "招标",
-    //   summary: "公开邀请具备施工资质和海外项目经验的单位参与投标。",
-    //   paragraphs: [
-    //     "现对相关工程项目进行公开招标，欢迎符合资格条件的单位参与投标。",
-    //     "投标单位需提供营业资质、业绩证明、履约承诺等资料。"
-    //   ],
-    //   attachments: [
-    //     { name: "招标文件.pdf", url: "files/招标文件.pdf" },
-    //     { name: "工程量清单.xlsx", url: "files/工程量清单.xlsx" }
-    //   ],
-    //   content:
-    //     "投标单位需具备相关资质、近三年同类业绩及完善的安全管理体系。具体要求以招标文件为准。"
-    // },
     {
       id: 1,
       title: "中色卢安夏铜业有限公司2026年度采购计划 CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan",
       date: "2026-01-01",
-      type: "动态",
-      // image: "images/新闻1.jpg",
+      type: "采购计划",
       summary: "",
-      // images: [
-      //   // { src: "images/新闻1.jpg", alt: "科技大会现场图1", afterParagraph: 1 },
-      //   { src: "images/新闻1.jpg", alt: "科技大会现场图2", afterParagraph: 4 },
-      //   { src: "images/新闻1.jpg", alt: "科技大会现场图3", afterParagraph: 4 },
-      //   { src: "images/新闻1.jpg", alt: "科技大会现场图4", afterParagraph: 4 },
-      // ],
       attachments: [
-        // { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
         { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf" }
       ],
       content: ""
     },
     {
       id: 2,
-      title: "招标信息 Tender Information Disclosure",
-      date: "2026-01-05",
-      type: "动态",
-      image: "images/招标信息1.png",
+      title: "Change Notice-Construction Project for Dormitories and Supporting Facilities in the Residential Camp",
+      date: "2026-04-13",
+      type: "招标信息",
+      image: "images/Tender Info1.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 3,
+      title: "Tender Announcement-Procurement of Domestic Transportation of Copper Concentrate for CNMC Luanshya Copper Mines Plc in 2026（Second time）",
+      date: "2026-04-10",
+      type: "招标信息",
+      image: "images/Tender Info2.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 4,
+      title: "Tender Announcement-Mineral Processing Reagents Procurement Project (Second time)",
+      date: "2026-04-10",
+      type: "招标信息",
+      image: "images/Tender Info3.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 5,
+      title: "Termination Notice-Mineral Processing Reagents Procurement Project",
+      date: "2026-04-07",
+      type: "招标信息",
+      image: "images/Tender Info4.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 6,
+      title: "Termination Notice-Procurement of Domestic Transportation of Copper Concentrate for CNMC Luanshya Copper Mines Plc",
+      date: "2026-04-07",
+      type: "招标信息",
+      image: "images/Tender Info5.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 7,
+      title: "Tender Announcement- Construction Project for Dormitories and Supporting Facilities in the Residential Camp",
+      date: "2026-04-06",
+      type: "招标信息",
+      image: "images/Tender Info6.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 8,
+      title: "Tender Announcement-Mineral Processing Reagents Procurement Project",
+      date: "2026-03-31",
+      type: "招标信息",
+      image: "images/Tender Info8.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 9,
+      title: "Announcement of Successful Tender Candidates-Muliashi Hydrometallurgical Plant Stable and High Production Water Balance Optimization Technical Renovation Project Pre Leaching Thickening Workshop",
+      date: "2026-03-23",
+      type: "招标信息",
+      image: "images/Tender Info7.png",
+      summary: "",
+      content: ""
+    },
+    {
+      id: 10,
+      title: "Tender Announcement-Muliashi Hydrometallurgical Plant Stable and High Production & Water Balance Optimization Technical Renovation Project Pre-Leaching Thickening Workshop",
+      date: "2026-03-12",
+      type: "招标信息",
+      image: "images/Tender Info9.png",
       summary: "",
       content: ""
     },
   ],
-  policies: [
-    {
-      id: 1,
-      title: "采购管理办法（公开版）",
-      date: "2026-01-15",
-      type: "采购",
-      summary: "明确采购方式、权限管理、流程要求与监督机制。",
-      paragraphs: [
-        "本制度用于规范采购活动，提升采购合规性、透明度与执行效率。",
-        "适用于公司各部门采购计划申报、评审、合同签订和履约验收等环节。"
-      ],
-      attachments: [
-        { name: "采购管理办法（公开版）.pdf", url: "files/采购管理办法（公开版）.pdf" }
-      ],
-      content:
-        "制度明确采购立项、比价评审、合同签订和验收付款等关键环节，强调职责分离和全流程留痕，提升采购活动规范化与透明度。"
-    },
-    {
-      id: 2,
-      title: "供应商准入与评价管理制度（公开版）",
-      date: "2026-02-10",
-      type: "供应商",
-      summary: "规范供应商引入、考核评价、分级管理与退出机制。",
-      content:
-        "制度对资质审查、履约评价、动态分级和不良行为处置作出明确规定，推动供应商管理标准化，保障合作质量与履约能力。"
-    },
-    {
-      id: 3,
-      title: "招投标廉洁与合规管理制度（公开版）",
-      date: "2026-03-05",
-      type: "合规",
-      summary: "强化廉洁从业要求与风险防控措施，规范招投标行为。",
-      content:
-        "制度聚焦围标串标防范、利益冲突申报、评审过程监督和问题追责，形成“事前预防、事中控制、事后审计”的闭环管理体系。"
-    }
-  ]
+  // policies: [
+  //   {
+  //     id: 1,
+  //     title: "采购管理办法（公开版）",
+  //     date: "2026-01-15",
+  //     type: "采购",
+  //     summary: "明确采购方式、权限管理、流程要求与监督机制。",
+  //     paragraphs: [
+  //       "本制度用于规范采购活动，提升采购合规性、透明度与执行效率。",
+  //       "适用于公司各部门采购计划申报、评审、合同签订和履约验收等环节。"
+  //     ],
+  //     attachments: [
+  //       { name: "采购管理办法（公开版）.pdf", url: "files/采购管理办法（公开版）.pdf" }
+  //     ],
+  //     content:
+  //       "制度明确采购立项、比价评审、合同签订和验收付款等关键环节，强调职责分离和全流程留痕，提升采购活动规范化与透明度。"
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "供应商准入与评价管理制度（公开版）",
+  //     date: "2026-02-10",
+  //     type: "供应商",
+  //     summary: "规范供应商引入、考核评价、分级管理与退出机制。",
+  //     content:
+  //       "制度对资质审查、履约评价、动态分级和不良行为处置作出明确规定，推动供应商管理标准化，保障合作质量与履约能力。"
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "招投标廉洁与合规管理制度（公开版）",
+  //     date: "2026-03-05",
+  //     type: "合规",
+  //     summary: "强化廉洁从业要求与风险防控措施，规范招投标行为。",
+  //     content:
+  //       "制度聚焦围标串标防范、利益冲突申报、评审过程监督和问题追责，形成“事前预防、事中控制、事后审计”的闭环管理体系。"
+  //   }
+  // ]
 };

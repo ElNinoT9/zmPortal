@@ -133,6 +133,20 @@ function renderAttachments(item) {
   `;
 }
 
+function getBackHref(moduleType, params) {
+  const from = params.get("from");
+  if (!from) {
+    return `list.html?type=${moduleType}`;
+  }
+
+  const decodedFrom = decodeURIComponent(from).trim();
+  if (!decodedFrom || /^(https?:)?\/\//i.test(decodedFrom)) {
+    return `list.html?type=${moduleType}`;
+  }
+
+  return decodedFrom;
+}
+
 function initDetailPage() {
   const params = new URLSearchParams(window.location.search);
   const moduleType = params.get("type") || "news";
@@ -140,7 +154,7 @@ function initDetailPage() {
   const records = getRecordsByType(moduleType);
   const item = records.find((record) => record.id === id);
 
-  document.getElementById("back-to-list").setAttribute("href", `list.html?type=${moduleType}`);
+  document.getElementById("back-to-list").setAttribute("href", getBackHref(moduleType, params));
 
   const box = document.getElementById("detail-box");
   if (!item) {
@@ -168,7 +182,7 @@ function initDetailPage() {
     </div>
     <h2 class="detail-title">${item.title}</h2>
     <p class="detail-publish-info">
-      发布人：${publisher} &nbsp;&nbsp;|&nbsp;&nbsp; 发布时间：${formatDate(publishedAt)}
+      发布时间：${formatDate(publishedAt)}
     </p>
     <div class="detail-body">
       ${bodyHtml}
@@ -179,3 +193,8 @@ function initDetailPage() {
 }
 
 initDetailPage();
+
+
+
+
+// 发布人：${publisher} &nbsp;&nbsp;|&nbsp;&nbsp; 发布时间：${formatDate(publishedAt)}

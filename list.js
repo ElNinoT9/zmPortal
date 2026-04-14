@@ -6,7 +6,7 @@ function formatDate(dateText) {
 function getModuleConfig(moduleType) {
   const map = {
     news: { title: "公司新闻列表", desc: "公司新闻与最新动态", data: siteData.news },
-    invites: { title: "招标信息列表", desc: "项目招标、询价与比选信息", data: siteData.invites },
+    invites: { title: "采购信息披露", desc: "项目招标、询价与比选信息", data: siteData.invites },
     policies: { title: "管理制度列表", desc: "管理制度文件", data: siteData.policies }
   };
   return map[moduleType] || map.news;
@@ -16,7 +16,8 @@ function getItemLink(moduleType, item) {
   if (moduleType === "news" && item.externalUrl) {
     return { href: item.externalUrl, target: "_blank" };
   }
-  return { href: `detail.html?type=${moduleType}&id=${item.id}`, target: "_self" };
+  const from = encodeURIComponent(`${window.location.pathname.split("/").pop()}${window.location.search}`);
+  return { href: `detail.html?type=${moduleType}&id=${item.id}&from=${from}`, target: "_self" };
 }
 
 function initListPage() {
