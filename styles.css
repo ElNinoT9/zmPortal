@@ -307,7 +307,59 @@ h3 {
   max-width: 780px;
   border: 1px solid var(--border);
   border-radius: 4px;
-  margin: 8px 0 16px;
+  margin: 8px auto 16px;
+}
+
+.detail-body {
+  font-family: "FangSong", "STFangsong", "仿宋", serif;
+  font-size: 19px;
+  line-height: 1.9;
+  color: #1f2937;
+}
+
+.detail-title {
+  text-align: center;
+  margin: 6px 0 8px;
+}
+
+.detail-publish-info {
+  text-align: center;
+  color: var(--muted);
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+
+.detail-paragraph {
+  text-indent: 2em;
+  margin: 0 0 14px;
+}
+
+.detail-image-wrap {
+  text-align: center;
+}
+
+.detail-image-wrap .detail-cover {
+  display: inline-block;
+}
+
+.detail-attachments {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e6ebf2;
+}
+
+.detail-attachments h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.detail-attachments ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.detail-attachments li {
+  margin-bottom: 6px;
 }
 
 @media (max-width: 900px) {
