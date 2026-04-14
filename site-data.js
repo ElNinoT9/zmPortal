@@ -25,7 +25,7 @@ const siteData = {
       ],
       attachments: [
         { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
-        { name: "科技项目成果汇编.docx", url: "files/科技项目成果汇编.docx" }
+        { name: "卢安夏官网采购模块设计(临时).docx", url: "files/卢安夏官网采购模块设计(临时).docx" }
       ],
       content:
         "春潮涌动启新篇，科技赋能向未来。赞比亚时间3月21日上午，中色卢安夏铜业有限公司首届科技大会在驻地体育馆会议室隆重召开。此次大会恰逢公司“十四五”圆满收官、“十五五”扬帆起航的关键节点，是公司发展史上具有里程碑意义的重要盛会，既是对过去五年科技创新工作的全面检阅与总结表彰，更是对未来五年以科技创新引领高质量发展、加快培育新质生产力的总动员、总部署。公司全体中方员工齐聚一堂，共话科技发展，共绘创新蓝图。"
@@ -90,22 +90,50 @@ const siteData = {
     //   content:
     //     "项目涉及生产调度、设备监测和数据可视化模块优化。参选单位需提交技术方案、实施计划及团队配置，公司将组织评审并发布比选结果。"
     // }
+    // {
+    //   id: 1,
+    //   title: "招标公告",
+    //   date: "2026-04-06",
+    //   type: "招标",
+    //   summary: "公开邀请具备施工资质和海外项目经验的单位参与投标。",
+    //   paragraphs: [
+    //     "现对相关工程项目进行公开招标，欢迎符合资格条件的单位参与投标。",
+    //     "投标单位需提供营业资质、业绩证明、履约承诺等资料。"
+    //   ],
+    //   attachments: [
+    //     { name: "招标文件.pdf", url: "files/招标文件.pdf" },
+    //     { name: "工程量清单.xlsx", url: "files/工程量清单.xlsx" }
+    //   ],
+    //   content:
+    //     "投标单位需具备相关资质、近三年同类业绩及完善的安全管理体系。具体要求以招标文件为准。"
+    // },
     {
       id: 1,
-      title: "招标公告",
-      date: "2026-04-06",
-      type: "招标",
-      summary: "公开邀请具备施工资质和海外项目经验的单位参与投标。",
-      paragraphs: [
-        "现对相关工程项目进行公开招标，欢迎符合资格条件的单位参与投标。",
-        "投标单位需提供营业资质、业绩证明、履约承诺等资料。"
-      ],
+      title: "中色卢安夏铜业有限公司2026年度采购计划 CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan",
+      date: "2026-01-01",
+      type: "动态",
+      // image: "images/新闻1.jpg",
+      summary: "",
+      // images: [
+      //   // { src: "images/新闻1.jpg", alt: "科技大会现场图1", afterParagraph: 1 },
+      //   { src: "images/新闻1.jpg", alt: "科技大会现场图2", afterParagraph: 4 },
+      //   { src: "images/新闻1.jpg", alt: "科技大会现场图3", afterParagraph: 4 },
+      //   { src: "images/新闻1.jpg", alt: "科技大会现场图4", afterParagraph: 4 },
+      // ],
       attachments: [
-        { name: "招标文件.pdf", url: "files/招标文件.pdf" },
-        { name: "工程量清单.xlsx", url: "files/工程量清单.xlsx" }
+        // { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
+        { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf" }
       ],
-      content:
-        "投标单位需具备相关资质、近三年同类业绩及完善的安全管理体系。具体要求以招标文件为准。"
+      content: ""
+    },
+    {
+      id: 2,
+      title: "招标信息 Tender Information Disclosure",
+      date: "2026-01-05",
+      type: "动态",
+      image: "images/招标信息1.png",
+      summary: "",
+      content: ""
     },
   ],
   policies: [
