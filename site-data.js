@@ -24,8 +24,7 @@ const siteData = {
         { src: "images/新闻1.jpg", alt: "科技大会现场图4", afterParagraph: 4 },
       ],
       attachments: [
-        { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
-        { name: "卢安夏官网采购模块设计(临时).docx", url: "files/卢安夏官网采购模块设计(临时).docx" }
+        // { name: "科技大会新闻稿.pdf", url: "files/科技大会新闻稿.pdf" },
       ],
       content: "春潮涌动启新篇，科技赋能向未来。赞比亚时间3月21日上午，中色卢安夏铜业有限公司首届科技大会在驻地体育馆会议室隆重召开。此次大会恰逢公司“十四五”圆满收官、“十五五”扬帆起航的关键节点，是公司发展史上具有里程碑意义的重要盛会，既是对过去五年科技创新工作的全面检阅与总结表彰，更是对未来五年以科技创新引领高质量发展、加快培育新质生产力的总动员、总部署。公司全体中方员工齐聚一堂，共话科技发展，共绘创新蓝图。"
     },
@@ -34,11 +33,25 @@ const siteData = {
       title: "培育能工巧匠 让创新与技能点亮未来人生",
       date: "2025-11-23",
       type: "动态",
-      image: "images/新闻2.jpg",
-      externalUrl: "https://oa.cnmc-clm.com.cn/iuap-ymdp-portal/api/rest/info/shareAddr/2511485673937567744/pyptfnp2",
+      image: "images/新闻2-0.jpg",
+      // externalUrl: "https://oa.cnmc-clm.com.cn/iuap-ymdp-portal/api/rest/info/shareAddr/2511485673937567744/pyptfnp2",
       summary: "当地时间11月7日，中国-赞比亚职业技术学院（以下简称“中赞职院”）在赞比亚卢安夏市新校区隆重举办第五届毕业典礼暨毕业生双选会。",
-      content:
-        "当地时间11月7日，中国-赞比亚职业技术学院（以下简称“中赞职院”）在赞比亚卢安夏市新校区隆重举办第五届毕业典礼暨毕业生双选会。本届活动以“创新与技能促进可持续发展”为主题，赞比亚政府官员、企业、师生及家长代表等数百名嘉宾，共同见证信息与自动化、机电一体化、采矿工程、新能源等专业317名毕业生迈向职业生涯新起点。"
+      paragraphs: [
+        "当地时间11月7日，中国-赞比亚职业技术学院（以下简称“中赞职院”）在赞比亚卢安夏市新校区隆重举办第五届毕业典礼暨毕业生双选会。本届活动以“创新与技能促进可持续发展”为主题，赞比亚政府官员、企业、师生及家长代表等数百名嘉宾，共同见证信息与自动化、机电一体化、采矿工程、新能源等专业317名毕业生迈向职业生涯新起点。",
+        "毕业典礼在庄严热烈的氛围中拉开帷幕。中色卢安夏董事长蒋雷在致辞中向圆满完成学业的毕业生致以热烈祝贺，并感谢教职工、赞比亚政府及中国企业为学院发展提供的支持。他表示：矿业可持续发展必须依靠科技创新，而创新的根基在于培养具备专业技能、理论知识和动手能力的实干型技术人才，要努力将中赞职院打造成赞比亚国家“产教融合的典范、人才培养的摇篮。",
+        "主礼嘉宾卢安夏地区专员Paul Malele在讲话中对本届毕业典礼的主题表示高度认同，并表示：政府将加大投入和政策支持，为教育事业和青年发展创造有利环境，政府坚信，毕业生所获得的技能不仅能帮助其就业，更能推动创业，为他人创造机会。",
+        "企业代表中色十五冶非洲公司副总经理李红芳在发言中回顾了与中赞职院合作开设的“重型设备维修订单班”所取得的优异成绩，该班全额资助的60名赞比亚青年顺利完成学业，其中多名优秀学员还将获得继续深造的机会，并宣布启动第二届订单班，计划资助50名青年学员，并拓展专业覆盖范围，进一步深化校企合作。",
+        "中赞职院校长Jorick Yamvwa在典礼上作了主题演讲。他表示，学院始终致力于通过高质量的职业教育，培养具备实战能力的专业人才，为推动赞比亚经济多元化发展提供人才支撑。他勉励全体毕业生积极运用所学知识与技能，以实际行动投身国家建设，为赞比亚的发展注入青春力量。",
+        "毕业生代表机电一体化专业的学生Dorothy Lukupwa在发言中分享了他在中赞职院的成长经历与感悟：“在这里，我们不仅学到了专业技能，还培养了创新思维和团队合作能力。感谢学校和企业的支持，让我们能够站在更高的起点上开启职业生涯。”",
+        "典礼当日，中赞职院还举办了毕业生双选会。来自矿业、建筑、制造等领域的10余家中资及国际企业，提供了涵盖自动化、采矿工程、机电一体化、重型设备维修等专业的100余个岗位，与毕业生进行高效对接。双选会现场气氛热烈，毕业生们手持简历，积极与企业代表交流，展现专业技能与综合素质。多家企业负责人表示，中赞职院培养的学生实践能力强，能快速适应岗位需求，体现了学院“教学与行业融合”的办学特色。",
+        "中赞职院第五届毕业典礼暨双选会的成功举办，展现了“政府支持、学校育人、企业赋能”的职教新模式在服务“一带一路”、助力中国企业出海、推动赞比亚青年人才技能提升方面的坚定承诺与显著成效，打造了政校企高效联动的交流平台，将在中赞职业教育合作发展进程中发挥标杆示范作用，推动中赞合作再谱新篇。",
+      ],
+      images: [
+        { src: "images/新闻2-1.png", alt: "双选会1", afterParagraph: 2 },
+        { src: "images/新闻2-2.png", alt: "双选会2", afterParagraph: 3 },
+        { src: "images/新闻2-3.png", alt: "双选会3", afterParagraph: 6 },
+      ],
+      content: "",
     },
     // {
     //   id: 2,
@@ -82,7 +95,7 @@ const siteData = {
       id: 1,
       title: "中色卢安夏铜业有限公司2026年度采购计划 CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan",
       date: "2026-01-01",
-      type: "采购计划",
+      type: "采购计划 Procurement Plan",
       summary: "",
       attachments: [
         { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf" }
@@ -93,7 +106,7 @@ const siteData = {
       id: 2,
       title: "Change Notice-Construction Project for Dormitories and Supporting Facilities in the Residential Camp",
       date: "2026-04-13",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info1.png",
       summary: "",
       content: ""
@@ -102,7 +115,7 @@ const siteData = {
       id: 3,
       title: "Tender Announcement-Procurement of Domestic Transportation of Copper Concentrate for CNMC Luanshya Copper Mines Plc in 2026（Second time）",
       date: "2026-04-10",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info2.png",
       summary: "",
       content: ""
@@ -111,7 +124,7 @@ const siteData = {
       id: 4,
       title: "Tender Announcement-Mineral Processing Reagents Procurement Project (Second time)",
       date: "2026-04-10",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info3.png",
       summary: "",
       content: ""
@@ -120,7 +133,7 @@ const siteData = {
       id: 5,
       title: "Termination Notice-Mineral Processing Reagents Procurement Project",
       date: "2026-04-07",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info4.png",
       summary: "",
       content: ""
@@ -129,7 +142,7 @@ const siteData = {
       id: 6,
       title: "Termination Notice-Procurement of Domestic Transportation of Copper Concentrate for CNMC Luanshya Copper Mines Plc",
       date: "2026-04-07",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info5.png",
       summary: "",
       content: ""
@@ -138,7 +151,7 @@ const siteData = {
       id: 7,
       title: "Tender Announcement- Construction Project for Dormitories and Supporting Facilities in the Residential Camp",
       date: "2026-04-06",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info6.png",
       summary: "",
       content: ""
@@ -147,7 +160,7 @@ const siteData = {
       id: 8,
       title: "Tender Announcement-Mineral Processing Reagents Procurement Project",
       date: "2026-03-31",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info8.png",
       summary: "",
       content: ""
@@ -156,7 +169,7 @@ const siteData = {
       id: 9,
       title: "Announcement of Successful Tender Candidates-Muliashi Hydrometallurgical Plant Stable and High Production Water Balance Optimization Technical Renovation Project Pre Leaching Thickening Workshop",
       date: "2026-03-23",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info7.png",
       summary: "",
       content: ""
@@ -165,7 +178,7 @@ const siteData = {
       id: 10,
       title: "Tender Announcement-Muliashi Hydrometallurgical Plant Stable and High Production & Water Balance Optimization Technical Renovation Project Pre-Leaching Thickening Workshop",
       date: "2026-03-12",
-      type: "招标信息",
+      type: "招标信息 Tender Information",
       image: "images/Tender Info9.png",
       summary: "",
       content: ""

@@ -182,7 +182,7 @@ function initDetailPage() {
     </div>
     <h2 class="detail-title">${item.title}</h2>
     <p class="detail-publish-info">
-      发布时间：${formatDate(publishedAt)}
+      发布时间 Release time：${formatDate(publishedAt)}
     </p>
     <div class="detail-body">
       ${bodyHtml}
