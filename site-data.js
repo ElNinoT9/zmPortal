@@ -98,7 +98,8 @@ const siteData = {
       type: "采购计划 Procurement Plan",
       summary: "",
       attachments: [
-        { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf" }
+        { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan.pdf" },
+        { name: "CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan(GOODS).xlsx", url: "files/CNMC Luanshya Copper Mines Plc. 2026 Annual Purchasing Plan(GOODS).xlsx" }
       ],
       content: ""
     },
