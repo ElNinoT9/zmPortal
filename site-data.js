@@ -104,6 +104,17 @@ const siteData = {
       content: ""
     },
     {
+      id: 26042301,
+      title: "中⾊卢安夏铜业有限公司数字化矿⼭控制系统设备更新改造采购项⽬ CNMC Luanshya Copper Mines Plc. Procurement Project for Upgrading and Retrofitting Digital Mine Control System Equipment",
+      date: "2026-04-23",
+      type: "招标信息 Tender Information",
+      summary: "",
+      attachments: [
+        { name: "中⾊卢安夏铜业有限公司数字化矿⼭控制系统设备更新改造采购项⽬.pdf", url: "files/中⾊卢安夏铜业有限公司数字化矿⼭控制系统设备更新改造采购项⽬.pdf" },
+      ],
+      content: ""
+    },
+    {
       id: 2,
       title: "Change Notice-Construction Project for Dormitories and Supporting Facilities in the Residential Camp",
       date: "2026-04-13",
